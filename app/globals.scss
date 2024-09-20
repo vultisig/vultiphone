@@ -1,0 +1,103 @@
+:root{
+  --color-green:#81F8DE;
+}
+body{
+  background:url(/img/header.webp) no-repeat top center #000a1d;
+  background-size: contain;
+}
+.text-20{
+  font-size: 20px;
+  }
+.text-16{
+font-size: 16px;
+}
+.text-14{
+  font-size: 14px;
+
+}
+.text-12{
+  font-size: 12px;
+
+}
+.border-custom{
+  border: 2px solid #284F87;
+}
+.bg-navbar{
+  background-color: #02122b85;
+}
+.text-green{
+  color: var(--color-green);
+}
+.bg-green{
+  background-color: var(--color-green);
+  
+}
+.w-50-custom{
+  width: 50%;
+}
+.w-75-custom{
+  width: 75%;
+}
+.w-100-custom{
+  width: 100%;
+}
+#bg-sec-one{
+  background: url(/img/sec-1.png) no-repeat left bottom;
+  height: 600px;
+}
+#brilliant{
+  margin-top: 400px;
+}
+#bg-sec-two{
+  background: url(/img/sec-2.png) no-repeat right bottom;
+  background-position-x: 150px;
+  height: 600px;
+}
+#capture .ms-custom{
+  margin-left: 300px;
+}
+#bg-sec-three{
+  background: url(/img/sec-3.png) no-repeat left bottom;
+  height: 600px;
+}
+#bg-sec-four{
+  background: url(/img/sec-4.png) no-repeat right bottom;
+  height: 900px;
+}
+.animated-text::after {
+  content: 'Security.';
+  animation: changeText 6s infinite;
+  display: inline-block;
+  padding-left: 10px;
+ 
+}
+@media (max-width:1024px){
+  .w-50-custom{
+    width: 100% !important;
+  }
+  .w-75-custom{
+    width: 100% !important;
+  }
+  #capture .ms-custom{
+    margin-left: 0;
+  }
+  #bg-sec-two{
+    background-position: right;
+  }
+ 
+}
+@keyframes changeText {
+  0% {
+    content: 'Security.'; /* First text */
+    
+  }
+  50% {
+    content: 'Crypto.'; /* Second text */
+    
+  }
+  10% {
+    content: 'Phone.'; /* Third text */
+
+  }
+
+}
