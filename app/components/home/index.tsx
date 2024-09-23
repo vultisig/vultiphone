@@ -41,8 +41,8 @@ export function Sections() {
         />
         <div className="container">
           <div className="row" id="brilliant">
-            <div className="col-12 d-block d-lg-none text-center">
-              <img src="/img/phone-mob.png" />
+            <div className="col-12 d-block d-lg-none mt-5 text-center">
+              <img src="/img/sec-1.png" className="w-100 object-fit-contain" />
             </div>
             <div
               className="col-lg-12 d-flex justify-content-end align-items-center px-3 px-lg-0"
@@ -63,7 +63,7 @@ export function Sections() {
           </div>
 
           <div className="row" id="advanced-sec">
-            <div className="col-12 d-block d-lg-none text-center">
+          <div className="col-12 d-block d-lg-none mt-5 text-center">
               <img src="/img/sec-mob.png" />
             </div>
             <div
@@ -87,7 +87,7 @@ export function Sections() {
             </div>
           </div>
           <div className="row" id="capture">
-            <div className="col-12 d-block d-lg-none text-center">
+          <div className="col-12 d-block d-lg-none mt-5 text-center">
               <img src="/img/cap-mob.png" />
             </div>
             <div
@@ -110,8 +110,8 @@ export function Sections() {
             </div>
           </div>
           <div className="row" id="app-sec">
-            <div className="col-12 d-block d-lg-none text-center">
-              <img src="/img/phones-mob.png" className="w-100" />
+          <div className="col-12 d-block d-lg-none mt-5 text-center mt-5">
+            <img src="/img/sec-4.png" className="w-100 object-fit-contain" />
             </div>
             <div
               className="col-lg-12 d-flex justify-content-start align-items-center ps-lg-5 px-3 px-lg-0"
@@ -147,7 +147,7 @@ export function Sections() {
             <div className="col-lg-4 mx-lg-5 px-3 px-lg-0" style={{ textAlign: "center" }}>
               <img src="/img/session-app.png" />
               <div className="text-start mt-5 mt-lg-0">
-              <h2 style={{ fontSize: "32px" }} className="text-green mt-3">
+              <h2 style={{ fontSize: "32px" }} className="text-green mt-4">
                 Session App
               </h2>
               <p
@@ -164,7 +164,7 @@ export function Sections() {
             <div className="col-lg-4 mx-lg-5 px-3 px-lg-0 mt-5 mt-lg-0" style={{ textAlign: "center" }}>
               <img src="/img/thor-wallet.png" />
               <div className="text-start mt-5 mt-lg-0">
-              <h2 style={{ fontSize: "32px" }} className="text-green mt-3">
+              <h2 style={{ fontSize: "32px" }} className="text-green mt-4">
                 ThorWallet
               </h2>
               <p
