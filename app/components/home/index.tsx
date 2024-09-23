@@ -14,7 +14,7 @@ export function Sections() {
             <p className="text-16">
               The Ultimate Crypto Phone with Built-In Multi-Chain Vault.
               <br />
-              Start Protecting Your Assets and Earning Rewards Today.
+              Start Protecting Your Assets and Earning Rewards.
             </p>
             <Link
               className="btn px-lg-4 btn-light mx-auto  my-5 btn-color d-flex align-items-center justify-content-center rounded-pill btn-pre-order"
@@ -173,7 +173,7 @@ export function Sections() {
               >
                 Cross-chain transactions simplified. Experience mobile swaps
                 between blockchains using THORChain & Maya Protocol or grow your
-                cypto using our unique Savers Account.
+                crypto using our unique Savers Account.
               </p>
             </div>
             </div>
@@ -279,7 +279,7 @@ export function Sections() {
                 </p>
                 <p className="pt-3 text-white">
                   Fill out our{" "}
-                  <a href="#" className="text-green">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link" className="text-green">
                     Google Form
                   </a>
                   .
