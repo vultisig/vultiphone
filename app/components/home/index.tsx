@@ -305,7 +305,7 @@ export function Sections() {
                 <div>
                   <img src="/img/qr-1.png" />
                   <p className="text-white text-18 text-center mt-2">
-                    1,111.111 WEWE
+                    PAY WITH WEWE
                   </p>
                   <p className="text-green text-18 text-center">149 USDC</p>
                 </div>
