@@ -19,15 +19,15 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "VultisigPhone",
-  description: "VultisigPhone is a secure and easy-to-use platform that allows you to manage your digital assets.",
-  metadataBase: new URL("https://vultisigPhone.com"),
-  keywords: ['VultisigPhone', 'VultisigPhone Docs', ' VultisigPhone help', 'VultisigPhone support', ' VultisigPhone customer service','VultisigPhone asset exchange'],
-  authors: [{ name: 'VultisigPhone' }, { name: 'VultisigPhone', url: 'VultisigPhone.com' }],
+  title: "VultiPhone",
+  description: "VultiPhone is a secure and easy-to-use platform that allows you to manage your digital assets.",
+  metadataBase: new URL("https://vultiphone.vercel.app/"),
+  keywords: ['VultiPhone', 'Blockchain', ' Earn Crypto with Security', 'Multi-Chain Vault', ' WEWE' , 'DEFI' , 'NFT'],
+  authors: [{ name: 'Vultisig' }],
   openGraph: {
-    siteName: 'VultisigPhone',
-    url: 'https://vultisigPhone.com',
-    images: 'https://vultisigPhone.com/img/doc-header.png',
+    siteName: 'VultiPhone',
+    url: 'https://vultiphone.vercel.app/',
+    images: 'https://vultiphone.vercel.app/img/vultiphone-thumbnail.png',
   },
 };
 export default function RootLayout({
