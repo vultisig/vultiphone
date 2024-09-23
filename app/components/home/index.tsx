@@ -54,16 +54,17 @@ export function Sections() {
                   BRILLIANT
                 </h2>
                 <p className="text-white text-20 pb-lg-5 mb-lg-5">
-                  Experience the world on a stunning 6.745" HD+ IPS<br/> Display that
-                  delivers sharp, vibrant visuals. Whether<br/> it's work or play,
-                  the Vultiphone ensures everything<br/> looks better.
+                  Experience the world on a stunning 6.745" HD+ IPS
+                  <br /> Display that delivers sharp, vibrant visuals. Whether
+                  <br /> it's work or play, the Vultiphone ensures everything
+                  <br /> looks better.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="row" id="advanced-sec">
-          <div className="col-12 d-block d-lg-none mt-5 text-center">
+            <div className="col-12 d-block d-lg-none mt-5 text-center">
               <img src="/img/sec-mob.png" />
             </div>
             <div
@@ -87,7 +88,7 @@ export function Sections() {
             </div>
           </div>
           <div className="row" id="capture">
-          <div className="col-12 d-block d-lg-none mt-5 text-center">
+            <div className="col-12 d-block d-lg-none mt-5 text-center">
               <img src="/img/cap-mob.png" />
             </div>
             <div
@@ -110,15 +111,14 @@ export function Sections() {
             </div>
           </div>
           <div className="row" id="app-sec">
-          <div className="col-12 d-block d-lg-none mt-5 text-center mt-5">
-            <img src="/img/sec-4.png" className="w-100 object-fit-contain" />
+            <div className="col-12 d-block d-lg-none mt-5 text-center mt-5">
+              <img src="/img/sec-4.png" className="w-100 object-fit-contain" />
             </div>
             <div
               className="col-lg-12 d-flex justify-content-start align-items-center ps-lg-5 px-3 px-lg-0"
               id="bg-sec-four"
             >
-                <div className="w-50-custom float-start mt-5 mt-lg-0 pe-lg-5 pe-0">
-                
+              <div className="w-50-custom float-start mt-5 mt-lg-0 pe-lg-5 pe-0">
                 <h2 style={{ fontSize: "40px" }} className="text-green">
                   Comes with the Vultisig App
                 </h2>
@@ -138,44 +138,52 @@ export function Sections() {
                   {navBarCopy.pre_order.name}
                 </Link>
               </div>
-              <div className="d-lg-none" style={{width:"20%"}}></div>
-            
+              <div className="d-lg-none" style={{ width: "20%" }}></div>
             </div>
           </div>
-          <div className="row justify-content-between gap-5" id="session-wallet">
-          
-            <div className="col-lg-4 mx-lg-5 px-3 px-lg-0" style={{ textAlign: "center" }}>
+          <div
+            className="row justify-content-between gap-5"
+            id="session-wallet"
+          >
+            <div
+              className="col-lg-4 mx-lg-5 px-3 px-lg-0"
+              style={{ textAlign: "center" }}
+            >
               <img src="/img/session-app.png" />
               <div className="text-start mt-5 mt-lg-0">
-              <h2 style={{ fontSize: "32px" }} className="text-green mt-4">
-                Session App
-              </h2>
-              <p
-                className="text-white text-18 mt-4"
-                style={{ padding: "inherit", textAlign: "left" }}
-              >
-                Session is an end-to-end encrypted messenger that
-                minimises sensitive metadata, designed and built for people who
-                want absolute privacy and freedom from any form of surveillance.
-              </p>
+                <h2 style={{ fontSize: "32px" }} className="text-green mt-4">
+                  Session App
+                </h2>
+                <p
+                  className="text-white text-18 mt-4"
+                  style={{ padding: "inherit", textAlign: "left" }}
+                >
+                  Session is an end-to-end encrypted messenger that
+                  minimises sensitive metadata, designed and built for people
+                  who want absolute privacy and freedom from any form
+                  of surveillance.
+                </p>
               </div>
-             
             </div>
-            <div className="col-lg-4 mx-lg-5 px-3 px-lg-0 mt-5 mt-lg-0" style={{ textAlign: "center" }}>
+            <div
+              className="col-lg-4 mx-lg-5 px-3 px-lg-0 mt-5 mt-lg-0"
+              style={{ textAlign: "center" }}
+            >
               <img src="/img/thor-wallet.png" />
               <div className="text-start mt-5 mt-lg-0">
-              <h2 style={{ fontSize: "32px" }} className="text-green mt-4">
-                ThorWallet
-              </h2>
-              <p
-                className="text-white text-18 mt-4"
-                style={{ padding: "inherit", textAlign: "left" }}
-              >
-                Cross-chain transactions simplified. Experience mobile swaps
-                between blockchains using THORChain & Maya Protocol or grow your
-                crypto using our unique Savers Account.
-              </p>
-            </div>
+                <h2 style={{ fontSize: "32px" }} className="text-green mt-4">
+                  ThorWallet
+                </h2>
+                <p
+                  className="text-white text-18 mt-4"
+                  style={{ padding: "inherit", textAlign: "left" }}
+                >
+                  With the merger of Vultisig and ThorWallet, you get the best
+                  of both worlds: Simplified cross-chain transactions and DeFi
+                  re-imagined. Get a Swiss bank account and a VISA crypto debit
+                  card right on your mobile.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -254,10 +262,16 @@ export function Sections() {
                   LIMITED OFFER
                 </h2>
                 <p className="text-white text-20 mt-4">
-                  First 100 Preorders Come with <br /> @THORGuards
+                  First 100 Preorders Come with <br />
+                  <Link className="text-white"
+                    target="_blacnk"
+                    href="https://opensea.io/collection/thorguards"
+                  >
+                    @THORGuards
+                  </Link>
                 </p>
                 <Link
-                  className="btn px-lg-4  btn-light mx-auto  my-5   btn-color d-flex align-items-center justify-content-center rounded-pill"
+                  className="btn px-lg-4  btn-light mx-auto  my-5 btn-color d-flex align-items-center justify-content-center rounded-pill"
                   style={{ height: "48px", width: "300px" }}
                   target="_blank"
                   href={`https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link`}
@@ -280,7 +294,11 @@ export function Sections() {
                 </p>
                 <p className="pt-3 text-white">
                   Fill out our{" "}
-                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link" className="text-green">
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link"
+                    className="text-green"
+                  >
                     Google Form
                   </a>
                   .
@@ -307,7 +325,7 @@ export function Sections() {
                   <p className="text-white text-18 text-center mt-2">
                     PAY WITH WEWE
                   </p>
-                  <p className="text-green text-18 text-center">1,111.111 WEWE</p>
+                  <p className="text-green text-18 text-center">1.1M WEWE</p>
                 </div>
               </div>
             </div>
@@ -356,8 +374,8 @@ export function Sections() {
                   <Link
                     className="btn px-lg-4 btn-light my-3 btn-color d-flex align-items-center justify-content-center rounded-pill"
                     style={{ height: "48px", width: "200px" }}
-                    target="_blank"
-                    href={`https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link`}
+                    target={navBarCopy.pre_order.target}
+                    href={navBarCopy.pre_order.url}
                   >
                     Pre-order Now
                   </Link>
