@@ -307,7 +307,7 @@ export function Sections() {
                   <p className="text-white text-18 text-center mt-2">
                     PAY WITH WEWE
                   </p>
-                  <p className="text-green text-18 text-center">149 USDC</p>
+                  <p className="text-green text-18 text-center">1,111.111 WEWE</p>
                 </div>
               </div>
             </div>
