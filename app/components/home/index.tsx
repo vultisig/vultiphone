@@ -259,6 +259,7 @@ export function Sections() {
                 <Link
                   className="btn px-lg-4  btn-light mx-auto  my-5   btn-color d-flex align-items-center justify-content-center rounded-pill"
                   style={{ height: "48px", width: "300px" }}
+                  target="_blank"
                   href={`https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link`}
                 >
                   Get it now for only 149 USDC
@@ -279,7 +280,7 @@ export function Sections() {
                 </p>
                 <p className="pt-3 text-white">
                   Fill out our{" "}
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link" className="text-green">
+                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link" className="text-green">
                     Google Form
                   </a>
                   .
@@ -355,7 +356,8 @@ export function Sections() {
                   <Link
                     className="btn px-lg-4 btn-light my-3 btn-color d-flex align-items-center justify-content-center rounded-pill"
                     style={{ height: "48px", width: "200px" }}
-                    href={`#`}
+                    target="_blank"
+                    href={`https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link`}
                   >
                     Pre-order Now
                   </Link>
