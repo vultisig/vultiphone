@@ -1,9 +1,45 @@
 :root{
   --color-green:#81F8DE;
 }
+// @font-face {
+//   font-family: 'Menlo';
+//   src: url('/fonts/Menlo.ttf');
+// }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat.ttf');
+
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/fonts/Montserrat-Bold.ttf');
+
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('/fonts/Montserrat-SemiBold.ttf');
+
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('/fonts/Montserrat-Medium.ttf');
+}
 body{
   background:url(/img/header.webp) no-repeat top center #000a1d;
   background-size: contain;
+  font-family: 'Montserrat' , var(--font-Montserrat-Medium) !important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Bold', var(--font-Montserrat-Bold) !important;
 }
 .text-20{
   font-size: 20px;
@@ -25,6 +61,9 @@ font-size: 16px;
 .bg-navbar{
   background-color: #02122b85;
 }
+.nav-link{
+  color: #FFF;
+}
 .text-green{
   color: var(--color-green);
 }
@@ -41,28 +80,42 @@ font-size: 16px;
 .w-100-custom{
   width: 100%;
 }
+.w-60-custom{
+  width: 60%;
+
+}
+.w-90-custom{
+  width: 90%;
+
+}
 #bg-sec-one{
   background: url(/img/sec-1.png) no-repeat left bottom;
-  height: 600px;
+  height: 650px;
 }
 #brilliant{
-  margin-top: 400px;
+  margin-top: 300px;
 }
 #bg-sec-two{
   background: url(/img/sec-2.png) no-repeat right bottom;
-  background-position-x: 150px;
-  height: 600px;
+  height: 540px;
 }
 #capture .ms-custom{
   margin-left: 300px;
 }
 #bg-sec-three{
   background: url(/img/sec-3.png) no-repeat left bottom;
-  height: 600px;
+  height: 500px;
 }
 #bg-sec-four{
   background: url(/img/sec-4.png) no-repeat right bottom;
-  height: 900px;
+  height: 750px;
+}
+.title-header{
+  font-size: 96px;
+}
+.simple-offcanvas{
+  background-color: #000a1d;
+  color: #FFF;
 }
 .animated-text::after {
   content: 'Security.';
@@ -71,20 +124,179 @@ font-size: 16px;
   padding-left: 10px;
  
 }
-@media (max-width:1024px){
-  .w-50-custom{
+p{
+  line-height: normal;
+}
+.item-box{
+  background: url(/img/bg-box.png) no-repeat center;
+  width: 240px;
+  height: 236px;
+  border-radius: 10px;
+  color: #FFF;
+  padding: 10px;
+  position: relative;
+  transition:  all ease-in-out .4s;
+ 
+  border-radius: 25px;
+  background: linear-gradient(180deg, rgba(3, 225, 255, 0.8) -10.55%, rgba(33, 85, 223, 0.8) 2.77%, rgba(15, 46, 117, 0.8) 19.12%, rgba(2, 18, 42, 0.8) 50%),
+radial-gradient(48.48% 56.92% at 100% 112.88%, rgba(3, 225, 255, 0.4) 4.52%, rgba(33, 85, 223, 0.4) 27.68%, rgba(15, 46, 117, 0.4) 52%, rgba(2, 18, 42, 0.4) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  img{
+    transition:  all ease-in-out .4s;
+    
+
+  }
+  &:hover img{
+    transform: scale(1.1);
+    transition:  all ease-in-out .4s;
+
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(145deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   
+      border-radius: inherit; /* Match the border radius */
+      z-index: -1;
+    transition:  all ease-in-out .4s;
+
+    }
+    &:hover::before {
+    transition:  all ease-in-out .4s;
+
+      background: linear-gradient(318deg, rgb(0 70 255), #0040ff);
+    }
+  &:hover{
+   
+    transition:  all ease-in-out .4s;
+  }
+}
+.item-box p{
+  font-size: 20px !important;
+
+  }
+
+
+#choose,#limited,#delivery-details,#phone-box,#join-discord,#pre-order,#join-discord{
+  margin-top: 200px;
+}
+.bg-phone-box{
+  background: url(/img/phone-box.png) no-repeat center;
+  height: 500px;
+  background-size: contain;
+  
+}
+.color-footer{
+  color: #CBD7E9;
+  font-family: 'montserrat', var(--font-Montserrat-Bold) !important;
+  font-weight: bold;
+}
+
+.btn-pre-order{
+  font-size: 0.9rem !important;
+}
+
+.btn-discord{
+  font-size:12px !important;
+  border-radius: 13px !important;
+  margin-left: 100px;
+  height: 40px;
+  width:170px
+}
+
+@media (min-width:1001px) and (max-width:1200px) {
+  #bg-sec-four{
+    background-size: contain;
+    height: 600px;
+  }
+  #bg-sec-three{
+    background-size: contain;
+
+  }
+  #bg-sec-two{
+    background-size: contain;
+
+  }
+  #bg-sec-one{
+    background-size: contain;
+    height: 418px;
+  }
+  .bg-phone-box{
+    background-size: contain;
+
+  }
+  #advanced-sec{
+    .sec-four-paragraph{
+      width: 50%;
+    }
+  }
+  .title-header{
+    font-size: 50px;
+  }
+  
+}
+@media (max-width:1000px){
+  #session-wallet{
+    margin-top: 100px;
+  }
+  .btn-discord{
+    margin-left: 0;
+  }
+  #bg-sec-four{
+    height: auto;
+  }
+  #choose, #limited, #delivery-details, #phone-box, #join-discord{
+    margin-top: 100px;
+  }
+  #brilliant{
+    margin-top: 100px;
+  }
+  .title-header{
+    font-size: 40px;
+  }
+  .bg-phone-box{
+   background:none;
+  }
+  .w-50-custom, 
+  .w-75-custom,
+  .w-60-custom,
+  .w-90-custom{
     width: 100% !important;
   }
-  .w-75-custom{
-    width: 100% !important;
+#session-wallet{
+  img{
+    width: 100%;
   }
+}
   #capture .ms-custom{
     margin-left: 0;
   }
   #bg-sec-two{
-    background-position: right;
+    background: none;
+    background-position-x: 0px !important;
   }
- 
+  #bg-sec-one{
+    background: none;
+  }
+  #bg-sec-three{
+    background: none;
+  }
+  #bg-sec-four{
+    background: none;
+  }
+ .text-20{
+  font-size: 16px !important;
+ }
+ .text-16{
+  font-size: 14px !important;
+ }
+}
+@media (min-width:1201px) and (max-width:1400px){
+  
 }
 @keyframes changeText {
   0% {

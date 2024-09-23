@@ -10,7 +10,7 @@ export function Trigger({
     const { handleOpen, randomId } = useContext(AppContext)
 
     return (
-        <button id="navbar-toggle-btn" className="navbar-toggler" type="button" onClick={handleOpen}>
+        <button id="navbar-toggle-btn" className="navbar-toggler border-0" type="button" onClick={handleOpen}>
             <span className="navbar-toggler-icon"></span>
         </button>
     )

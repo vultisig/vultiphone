@@ -72,7 +72,7 @@ export function Offcanvas({
             <div
                 id={`offcanvas_${randomId}`}
                 className={`${scss.offcanvas} ${scss[position]} ${isOpen ? scss.show : ''
-                    } ${className}  text-bg-dark`}
+                    } ${className}`}
                 tabIndex={-1}
                 style={styles}
                 role="dialog"
@@ -95,14 +95,14 @@ export function Offcanvas({
                     <ul className="navbar-nav align-items-center">
                         {navBarCopy.navbarLinks.map((link, index) => (
                             <li key={index} className="nav-item my-sm-2 mx-3">
-                                <Link className={`nav-link ${currentPath === link.url ? 'gradient-text' : ''}`}
+                                <Link onClick={handleClose} className={`nav-link ${currentPath === link.url ? 'gradient-text' : ''}`}
                                     href={link.url} target={link.target} >{link.name}</Link>
                             </li>
                         ))
                         }
-                        <a className="btn px-lg-4 ms-lg-5  btn-primary my-2 mx-lg-2 my-sm-0 btn-color d-flex align-items-center justify-content-center rounded"
-                            style={{ height: "48px", width: "193px" }} href={navBarCopy.download.url} target={navBarCopy.download.target}>
-                            {navBarCopy.download.name}
+                        <a onClick={handleClose} className="btn px-lg-4 ms-lg-5  btn-primary my-2 mx-lg-2 my-sm-0 btn-color d-flex align-items-center justify-content-center rounded"
+                            style={{ height: "48px", width: "193px" }} href={navBarCopy.pre_order.url} target={navBarCopy.pre_order.target}>
+                            {navBarCopy.pre_order.name}
                         </a>
                     </ul>
                 </div>

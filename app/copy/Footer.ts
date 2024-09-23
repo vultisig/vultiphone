@@ -8,24 +8,33 @@ export const footerCopy = {
         url: "https://discord.gg/54wEtGYxuv",
         target: "_blank"
     },
-    social: {
-        githubLink: {
-            url: "https://github.com/Vultisig/",
+    social: [
+        {
+            url: "https://github.com",
+            image: "/img/github-sign.svg",
             target: "_blank"
         },
-        twitterLink: {
-            url: "https://twitter.com/vultisig",
+        {
+            url: "https://twitter.com",
+            image: "/img/twitter.svg",
             target: "_blank"
         },
-        discordLink: {
-            url: "https://discord.gg/54wEtGYxuv",
+        {
+            url: "https://discord.gg",
+            image: "/img/discord.png",
             target: "_blank"
         },
-        telegramLink: {
-            url: "https://t.me/vultisig",
+        {
+            url: "https://t.me",
+            image: "/img/telegram-link.svg",
+            target: "_blank"
+        },
+        {
+            url: "https://instagram.com",
+            image: "./img/instagram.svg",
             target: "_blank"
         }
-    },
+    ],
     footerLinks: [
         {
             title: "Support",

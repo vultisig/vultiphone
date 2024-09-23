@@ -8,13 +8,13 @@ import { Footer } from "./shared-components/Footer";
 
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+  src: "./fonts/Montserrat-Medium.ttf",
+  variable: "--font-Montserrat-Medium",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+  src: "./fonts/Montserrat-Bold.ttf",
+  variable: "--font-Montserrat-Bold",
   weight: "100 900",
 });
 
@@ -37,6 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* className={`${geistSans.variable} ${geistMono.variable}`} */}
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <NavBar />
         {children}
