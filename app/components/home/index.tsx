@@ -259,7 +259,7 @@ export function Sections() {
                 <Link
                   className="btn px-lg-4  btn-light mx-auto  my-5   btn-color d-flex align-items-center justify-content-center rounded-pill"
                   style={{ height: "48px", width: "300px" }}
-                  href={`#`}
+                  href={`https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link`}
                 >
                   Get it now for only 149 USDC
                 </Link>
@@ -369,7 +369,7 @@ export function Sections() {
                 </p>
                 <Link
                   className="btn btn-primary px-lg-4 d-flex align-items-center justify-content-center btn-discord"
-                  href={`#`}
+                  href={`https://discord.gg/54wEtGYxuv`}
                 >
                   DISCORD LINK
                 </Link>

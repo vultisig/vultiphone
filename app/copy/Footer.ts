@@ -10,28 +10,23 @@ export const footerCopy = {
     },
     social: [
         {
-            url: "https://github.com",
+            url: "https://github.com/Vultisig/",
             image: "/img/github-sign.svg",
             target: "_blank"
         },
         {
-            url: "https://twitter.com",
+            url: "https://twitter.com/vultisig",
             image: "/img/twitter.svg",
             target: "_blank"
         },
         {
-            url: "https://discord.gg",
+            url: "https://discord.gg/54wEtGYxuv",
             image: "/img/discord.png",
             target: "_blank"
         },
         {
-            url: "https://t.me",
+            url: "https://t.me/vultisig",
             image: "/img/telegram-link.svg",
-            target: "_blank"
-        },
-        {
-            url: "https://instagram.com",
-            image: "./img/instagram.svg",
             target: "_blank"
         }
     ],
@@ -41,7 +36,7 @@ export const footerCopy = {
             links: [
                 {
                     name: "FAQs",
-                    url: "/Faq",
+                    url: "https://vultisig.com/faq",
                     target: "_blank"
                 },
                 {
@@ -61,12 +56,12 @@ export const footerCopy = {
             links: [
                 {
                     name: "Terms of Service",
-                    url: "https://github.com/vultisig/docs/blob/main/other/terms.md",
+                    url: "https://vultisig.com/termofservice",
                     target: "_blank"
                 },
                 {
                     name: "Privacy Policy",
-                    url: "/Privacy",
+                    url: "https://vultisig.com/privacy",
                     target: "_blank"
                 }
             ]

@@ -19,7 +19,7 @@ export const navBarCopy = {
     ],
     pre_order: {
         name: "Pre-order Now",
-        url: "#phone-box",
-        target: "_self"
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSeXJc5fWtN6S2tkWM7A7SF5rPMyZTgZlH-pCzqr5xAlv9U2Tw/viewform?usp=sf_link",
+        target: "_blank"
     },
 }
