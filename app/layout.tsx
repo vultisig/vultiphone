@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.scss";
+import "./components/home/index.scss";
 
 import { NavBar } from "./shared-components/NavBar";
 import { Footer } from "./shared-components/Footer";
-
 
 const geistSans = localFont({
   src: "./fonts/Montserrat-Medium.ttf",

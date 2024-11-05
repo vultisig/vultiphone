@@ -1,0 +1,158 @@
+.hero-sec {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 100px;
+  p {
+    padding: 40px;
+  }
+}
+
+.public-section {
+  background-image: url("/img/home/line-center-shadow.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: -100px auto 0;
+    max-width: 100%;
+  }
+
+  h1 {
+    color: #81f8de;
+    line-height: 44px;
+  }
+
+  p {
+    margin-top: 20px;
+    color: #fff;
+  }
+  .container {
+    max-width: 990px;
+    padding-bottom: 174px;
+  }
+}
+
+.get-started {
+  margin-top: 50px;
+  color: #fff;
+  background-image: url("/img/home/get-started.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  .shadow{
+    padding: 40px 84px;
+    z-index: -1;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #0d1f3f46, #1d2e5b79, #25438481, #2a64a695, #2d84d66b);
+}
+  h1,
+  p,
+  .btn {
+    margin-top: 30px !important;
+  }
+  img {
+    display: none;
+  }
+}
+
+.join-discord {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+  p {
+    color: #fff;
+    width: 100%;
+  }
+  .btn {
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-sec {
+    margin-bottom: 300px;
+    p{
+        font-size: 23px;
+        padding: 40px 100px;
+    }
+  }
+  .public-section {
+    text-align: left;
+
+    img {
+      position: absolute;
+      bottom: 174px;
+      margin-top: 0;
+    }
+    .container {
+      min-height: 629px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+    &:nth-child(odd) {
+      background-image: url("/img/home/line-left-shadow.png");
+
+      img {
+        left: -40px;
+      }
+
+      .container {
+        padding-left: 500px;
+      }
+    }
+    &:nth-child(even) {
+      background-image: url("/img/home/line-right-shadow.png");
+      img {
+        right: -40px;
+      }
+      .container {
+        padding-right: 500px;
+      }
+    }
+  }
+
+  .get-started {
+    margin-top: 200px;
+    width: 100%;
+    min-height: 428px;
+    padding: 0px !important;
+    border: 1px solid #294a69;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+
+    img {
+      display: block;
+      max-width: 200px;
+      bottom: 0px;
+      position: absolute;
+      right: 70px;
+    }
+    p {
+      margin-top: 30px !important;
+      padding-right: 480px;
+    }
+  }
+
+  .join-discord {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .hero-sec {
+    margin-bottom: 400px;
+    padding-top: 100px;
+    p{
+        font-size: 28px;
+        padding: 40px 200px;
+    }
+  }
+  .join-discord {
+    width: 60%;
+  }
+}

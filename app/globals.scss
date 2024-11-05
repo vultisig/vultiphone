@@ -1,5 +1,5 @@
-:root{
-  --color-green:#81F8DE;
+:root {
+  --color-green: #81f8de;
 }
 // @font-face {
 //   font-family: 'Menlo';
@@ -7,31 +7,28 @@
 // }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat.ttf');
-
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url('/fonts/Montserrat-Bold.ttf');
-
+  font-family: "Montserrat-Bold";
+  src: url("/fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-SemiBold';
-  src: url('/fonts/Montserrat-SemiBold.ttf');
-
+  font-family: "Montserrat-SemiBold";
+  src: url("/fonts/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url('/fonts/Montserrat-Regular.ttf');
+  font-family: "Montserrat-Regular";
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Medium';
-  src: url('/fonts/Montserrat-Medium.ttf');
+  font-family: "Montserrat-Medium";
+  src: url("/fonts/Montserrat-Medium.ttf");
 }
 body {
   background: url(/img/header.webp) no-repeat top center #000a1d;
@@ -46,7 +43,7 @@ h5,
 h6 {
   font-family: "Montserrat-Bold", var(--font-Montserrat-Bold) !important;
 }
-.text-20{
+.text-20 {
   font-size: 20px;
 }
 .text-16 {
@@ -54,42 +51,26 @@ h6 {
 }
 .text-14 {
   font-size: 14px;
-
 }
-.text-12{
+.text-12 {
   font-size: 12px;
-
 }
-.border-custom{
-  border: 2px solid #284F87;
+.border-custom {
+  border: 2px solid #284f87;
 }
-.bg-navbar{
+.bg-navbar {
   background-color: #02122b85;
 }
-.nav-link{
-  color: #FFF;
+.nav-link {
+  color: #fff;
 }
-.text-green{
+.text-green {
   color: var(--color-green);
 }
-.bg-green{
+.bg-green {
   background-color: var(--color-green);
 }
-.w-50-custom {
-  width: 50%;
-}
-.w-75-custom {
-  width: 75%;
-}
-.w-100-custom {
-  width: 100%;
-}
-.w-60-custom {
-  width: 60%;
-}
-.w-90-custom {
-  width: 90%;
-}
+
 #bg-sec-one {
   background: url(/img/sec-1.png) no-repeat left bottom;
   height: 650px;
@@ -160,7 +141,7 @@ p {
   padding: 10px;
   position: relative;
   transition: all ease-in-out 0.4s;
-
+  padding: 20px;
   border-radius: 25px;
   background: linear-gradient(
       180deg,
@@ -233,6 +214,7 @@ p {
 
 .btn-pre-order {
   font-size: 0.9rem !important;
+  background-color: silver;
 }
 
 .btn-discord {
@@ -357,3 +339,5 @@ p {
     content: "Phone."; /* Third text */
   }
 }
+
+
