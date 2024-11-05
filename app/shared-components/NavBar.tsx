@@ -38,7 +38,7 @@ export function NavBar() {
               alt="Vultisig Logo"
             />
             <strong
-              style={{ fontSize: "x-large",paddingRight:"25px" }}
+              style={{ fontSize: "x-large"}}
               className="monserrat-semibold"
             >
               Vultisig
