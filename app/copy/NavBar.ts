@@ -12,14 +12,14 @@ export const navBarCopy = {
         },
         {
             name: "Preorder",
-            url: "#limited",
+            url: "/",
             target: "_self"
         },
        
     ],
     pre_order: {
         name: "Pre-order Soon",
-        url: "#",
+        url: "",
         target: "_self"
     },
 }
