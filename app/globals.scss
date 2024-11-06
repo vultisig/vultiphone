@@ -1,319 +1,335 @@
-:root{
-  --color-green:#81F8DE;
-}
-// @font-face {
-//   font-family: 'Menlo';
-//   src: url('/fonts/Menlo.ttf');
-// }
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat.ttf');
-
+:root {
+  --color-green: #81f8de;
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url('/fonts/Montserrat-Bold.ttf');
-
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-SemiBold';
-  src: url('/fonts/Montserrat-SemiBold.ttf');
-
+  font-family: "Montserrat-Bold";
+  src: url("/fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url('/fonts/Montserrat-Regular.ttf');
+  font-family: "Montserrat-SemiBold";
+  src: url("/fonts/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat-Medium';
-  src: url('/fonts/Montserrat-Medium.ttf');
+  font-family: "Montserrat-Regular";
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
-body{
-  background:url(/img/header.webp) no-repeat top center #000a1d;
-  background-size: contain;
-  font-family: 'Montserrat' , var(--font-Montserrat-Medium) !important;
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("/fonts/Montserrat-Medium.ttf");
 }
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Montserrat-Bold', var(--font-Montserrat-Bold) !important;
+body {
+  background-color: #000a1d;
+  font-family: "Montserrat", var(--font-Montserrat-Medium) !important;
 }
-.text-20{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", var(--font-Montserrat-Bold) !important;
+}
+.text-20 {
   font-size: 20px;
-  }
-.text-16{
-font-size: 16px;
 }
-.text-14{
+.text-16 {
+  font-size: 16px;
+}
+.text-14 {
   font-size: 14px;
-
 }
-.text-12{
+.text-12 {
   font-size: 12px;
+}
 
-}
-.border-custom{
-  border: 2px solid #284F87;
-}
-.bg-navbar{
+.bg-navbar {
   background-color: #02122b85;
+  border: 2px solid #284f87;
 }
-.nav-link{
-  color: #FFF;
+.nav-link {
+  color: #fff;
 }
-.text-green{
+.text-green {
   color: var(--color-green);
 }
-.bg-green{
-  background-color: var(--color-green);
-  
-}
-.w-50-custom{
-  width: 50%;
-}
-.w-75-custom{
-  width: 75%;
-}
-.w-100-custom{
-  width: 100%;
-}
-.w-60-custom{
-  width: 60%;
 
-}
-.w-90-custom{
-  width: 90%;
-
-}
-#bg-sec-one{
+#bg-sec-one {
   background: url(/img/sec-1.png) no-repeat left bottom;
   height: 650px;
 }
-#brilliant{
+#brilliant {
   margin-top: 300px;
 }
-#bg-sec-two{
+#bg-sec-two {
   background: url(/img/sec-2.png) no-repeat right bottom;
   height: 540px;
 }
-#capture .ms-custom{
+#capture .ms-custom {
   margin-left: 300px;
 }
-#bg-sec-three{
+#bg-sec-three {
   background: url(/img/sec-3.png) no-repeat left bottom;
   height: 500px;
 }
-#bg-sec-four{
+
+#bg-sec-session-app {
+  background: url(/img/session-app-bg.png) no-repeat left bottom;
+  height: 500px;
+  .description {
+    width: 66%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 100%;
+  }
+}
+#bg-sec-four {
   background: url(/img/sec-4.png) no-repeat right bottom;
   height: 750px;
 }
-.title-header{
+#limited {
+  background-image: url("/img/limited-bg.png");
+  background-repeat: repeat-x;
+  height: 430px;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.title-header {
   font-size: 96px;
 }
-.simple-offcanvas{
+.simple-offcanvas {
   background-color: #000a1d;
-  color: #FFF;
+  color: #fff;
 }
 .animated-text::after {
-  content: 'Security.';
+  content: "Security.";
   animation: changeText 6s infinite;
   display: inline-block;
   padding-left: 10px;
- 
 }
-p{
+p {
   line-height: normal;
 }
-.item-box{
+.item-box {
   background: url(/img/bg-box.png) no-repeat center;
   width: 240px;
   height: 236px;
   border-radius: 10px;
-  color: #FFF;
+  color: #fff;
   padding: 10px;
   position: relative;
-  transition:  all ease-in-out .4s;
- 
+  transition: all ease-in-out 0.4s;
+  padding: 20px;
   border-radius: 25px;
-  background: linear-gradient(180deg, rgba(3, 225, 255, 0.8) -10.55%, rgba(33, 85, 223, 0.8) 2.77%, rgba(15, 46, 117, 0.8) 19.12%, rgba(2, 18, 42, 0.8) 50%),
-radial-gradient(48.48% 56.92% at 100% 112.88%, rgba(3, 225, 255, 0.4) 4.52%, rgba(33, 85, 223, 0.4) 27.68%, rgba(15, 46, 117, 0.4) 52%, rgba(2, 18, 42, 0.4) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: linear-gradient(
+      180deg,
+      rgba(3, 225, 255, 0.8) -10.55%,
+      rgba(33, 85, 223, 0.8) 2.77%,
+      rgba(15, 46, 117, 0.8) 19.12%,
+      rgba(2, 18, 42, 0.8) 50%
+    ),
+    radial-gradient(
+        48.48% 56.92% at 100% 112.88%,
+        rgba(3, 225, 255, 0.4) 4.52%,
+        rgba(33, 85, 223, 0.4) 27.68%,
+        rgba(15, 46, 117, 0.4) 52%,
+        rgba(2, 18, 42, 0.4) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
-  img{
-    transition:  all ease-in-out .4s;
-    
-
+  img {
+    transition: all ease-in-out 0.4s;
+    width: 62%;
   }
-  &:hover img{
+  &:hover img {
     transform: scale(1.1);
-    transition:  all ease-in-out .4s;
+    transition: all ease-in-out 0.4s;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
 
-    }
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(145deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-   
-      border-radius: inherit; /* Match the border radius */
-      z-index: -1;
-    transition:  all ease-in-out .4s;
+    border-radius: inherit; /* Match the border radius */
+    z-index: -1;
+    transition: all ease-in-out 0.4s;
+  }
+  &:hover::before {
+    transition: all ease-in-out 0.4s;
 
-    }
-    &:hover::before {
-    transition:  all ease-in-out .4s;
-
-      background: linear-gradient(318deg, rgb(0 70 255), #0040ff);
-    }
-  &:hover{
-   
-    transition:  all ease-in-out .4s;
+    background: linear-gradient(318deg, rgb(0 70 255), #0040ff);
+  }
+  &:hover {
+    transition: all ease-in-out 0.4s;
   }
 }
-.item-box p{
+.item-box p {
   font-size: 20px !important;
+}
 
-  }
-
-
-#choose,#limited,#delivery-details,#phone-box,#join-discord,#pre-order,#join-discord{
+#choose,
+#limited,
+#delivery-details,
+#phone-box,
+#join-discord,
+#pre-order,
+#join-discord {
   margin-top: 200px;
 }
-.bg-phone-box{
+.bg-phone-box {
   background: url(/img/phone-box.png) no-repeat center;
   height: 500px;
   background-size: contain;
-  
 }
-.color-footer{
-  color: #CBD7E9;
-  font-family: 'montserrat', var(--font-Montserrat-Bold) !important;
+.color-footer {
+  color: #cbd7e9;
+  font-family: "montserrat", var(--font-Montserrat-Bold) !important;
   font-weight: bold;
 }
 
-.btn-pre-order{
+.btn-pre-order,
+.btn-light {
   font-size: 0.9rem !important;
+  background-color: silver !important;
+  border: 1px solid rgb(157, 156, 156) !important;
 }
 
-.btn-discord{
-  font-size:12px !important;
+.btn-discord {
+  font-size: 12px !important;
   border-radius: 13px !important;
   margin-left: 100px;
   height: 40px;
-  width:170px
+  width: 170px;
 }
 
-@media (min-width:1001px) and (max-width:1200px) {
-  #bg-sec-four{
+@media (min-width: 1001px) and (max-width: 1200px) {
+  #bg-sec-four {
     background-size: contain;
     height: 600px;
   }
-  #bg-sec-three{
+  #bg-sec-three {
     background-size: contain;
-
   }
-  #bg-sec-two{
+  #bg-sec-session-app {
     background-size: contain;
-
   }
-  #bg-sec-one{
+
+  #bg-sec-two {
+    background-size: contain;
+  }
+  #bg-sec-one {
     background-size: contain;
     height: 418px;
   }
-  .bg-phone-box{
+  .bg-phone-box {
     background-size: contain;
-
   }
-  #advanced-sec{
-    .sec-four-paragraph{
+  #advanced-sec {
+    .sec-four-paragraph {
       width: 50%;
     }
   }
-  .title-header{
+  .title-header {
     font-size: 50px;
   }
-  
 }
-@media (max-width:1000px){
-  #session-wallet{
+@media (max-width: 1000px) {
+  #session-wallet {
     margin-top: 100px;
   }
-  .btn-discord{
+  .btn-discord {
     margin-left: 0;
   }
-  #bg-sec-four{
+  #bg-sec-four {
     height: auto;
   }
-  #choose, #limited, #delivery-details, #phone-box, #join-discord{
+  #choose,
+  #limited,
+  #delivery-details,
+  #phone-box,
+  #join-discord {
     margin-top: 100px;
   }
-  #brilliant{
+  #brilliant {
     margin-top: 100px;
   }
-  .title-header{
+  .title-header {
     font-size: 40px;
   }
-  .bg-phone-box{
-   background:none;
+  .bg-phone-box {
+    background: none;
   }
-  .w-50-custom, 
+  .w-50-custom,
   .w-75-custom,
   .w-60-custom,
-  .w-90-custom{
+  .w-90-custom {
     width: 100% !important;
   }
-#session-wallet{
-  img{
-    width: 100%;
+  #session-wallet {
+    img {
+      width: 100%;
+    }
   }
-}
-  #capture .ms-custom{
+  #capture .ms-custom {
     margin-left: 0;
   }
-  #bg-sec-two{
+  #bg-sec-two {
     background: none;
     background-position-x: 0px !important;
     height: auto;
   }
-  #bg-sec-one{
+  #bg-sec-one {
     background: none;
     height: auto;
   }
-  #bg-sec-three{
+  #bg-sec-three {
     background: none;
     height: auto;
   }
-  #bg-sec-four{
+  #bg-sec-session-app {
+    background: none;
+    height: auto;
+    display: flex;
+    margin-left: 33px;
+  }
+  #bg-sec-four {
     background: none;
     height: auto;
   }
- .text-20{
-  font-size: 16px !important;
- }
- .text-16{
-  font-size: 14px !important;
- }
+  .text-20 {
+    font-size: 16px !important;
+  }
+  .text-16 {
+    font-size: 14px !important;
+  }
 }
-@media (min-width:1201px) and (max-width:1400px){
-  
+@media (min-width: 1201px) and (max-width: 1400px) {
 }
 @keyframes changeText {
   0% {
-    content: 'Security.'; /* First text */
-    
+    content: "Security."; /* First text */
   }
   50% {
-    content: 'Crypto.'; /* Second text */
-    
+    content: "Crypto."; /* Second text */
   }
   10% {
-    content: 'Phone.'; /* Third text */
-
+    content: "Phone."; /* Third text */
   }
-
 }
