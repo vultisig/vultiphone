@@ -78,8 +78,7 @@ export const homeCopy = {
     items: [
       {
         title: `DELIVERY DETAILS`,
-        description: `The estimated delivery is expected by Q4 24/Q1 25, subject to
-                  international shipping times based on your location.`,
+        description: `The estimated delivery is expected by Q4 24/Q1 25, subject to international shipping times based on your location, as well as the condition that we reach 2500 presales.`,
       },
       {
         title: `DATA PRIVACY`,
@@ -89,10 +88,12 @@ export const homeCopy = {
       },
       {
         title: ` WARRANTY INFORMATION`,
-        description: `Your personal information (address, email, transaction ID)
-         will be used solely for communication regarding delivery and will be 
-         deleted once your Vultiphone has been delivered.`,
+        description: `Enjoy 2 years world wide warranty for the VultiPhone.`,
       },
+      {
+        title: `VultiPhone Specificaitons`,
+        description: `T606 CPU, 6.7’ screen (HD+), 8 GB Ram, 128 GB SDD, 8M front / 50M back camera, 5000mAh battery`
+      }
     ],
   },
   get_started: {

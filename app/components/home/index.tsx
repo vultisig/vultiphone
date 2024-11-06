@@ -5,7 +5,6 @@ import Link from "next/link";
 export function Sections() {
   return (
     <>
-
       <div className="hero-sec">
         <div className="container">
           <h1 className="title-header">
@@ -67,7 +66,7 @@ export function Sections() {
       </div>
 
       <div className="container">
-        <div className="row" id="delivery-details">
+        <div className="row delivery-details" id="delivery-details">
           <div className="col-lg-7 mt-5 mt-lg-0 d-flex gap-4 justify-content-center align-items-center px-3 px-lg-0">
             <img src="/img/data-details.png" />
           </div>

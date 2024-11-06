@@ -1,8 +1,22 @@
+.hero-section-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: url(/img/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center -12%;
+  width: 2400px;
+  height: 1600px;
+  z-index: -1;
+  background-size: 48%;
+  transform: translate(-50%, -1%);
+}
 .hero-sec {
   text-align: center;
   color: #fff;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   p {
+    margin-top: 100px;
     padding: 40px;
   }
 }
@@ -41,12 +55,19 @@
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
-  .shadow{
+  .shadow {
     padding: 40px 84px;
     z-index: -1;
     border-radius: 20px;
-    background: linear-gradient(to bottom, #0d1f3f46, #1d2e5b79, #25438481, #2a64a695, #2d84d66b);
-}
+    background: linear-gradient(
+      to bottom,
+      #0d1f3f46,
+      #1d2e5b79,
+      #25438481,
+      #2a64a695,
+      #2d84d66b
+    );
+  }
   h1,
   p,
   .btn {
@@ -71,11 +92,24 @@
 }
 
 @media (min-width: 992px) {
+  .hero-section-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: url(/img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2400px;
+    height: 1600px;
+    z-index: -1;
+    background-size: 137%;
+    transform: translate(-50%, -5%);
+  }
   .hero-sec {
-    margin-bottom: 300px;
-    p{
-        font-size: 23px;
-        padding: 40px 100px;
+    margin-bottom: 180px;
+    p {
+      font-size: 23px;
+      padding: 40px 100px;
     }
   }
   .public-section {
@@ -145,11 +179,11 @@
 
 @media (min-width: 1300px) {
   .hero-sec {
-    margin-bottom: 400px;
+    margin-bottom: 280px;
     padding-top: 100px;
-    p{
-        font-size: 28px;
-        padding: 40px 200px;
+    p {
+      font-size: 28px;
+      padding: 40px 200px;
     }
   }
   .join-discord {

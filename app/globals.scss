@@ -27,8 +27,7 @@
   src: url("/fonts/Montserrat-Medium.ttf");
 }
 body {
-  background: url(/img/header.webp) no-repeat top center #000a1d;
-  background-size: contain;
+  background-color: #000a1d;
   font-family: "Montserrat", var(--font-Montserrat-Medium) !important;
 }
 h1,
@@ -153,6 +152,7 @@ p {
 
   img {
     transition: all ease-in-out 0.4s;
+    width: 62%;
   }
   &:hover img {
     transform: scale(1.1);
@@ -208,7 +208,7 @@ p {
 .btn-light {
   font-size: 0.9rem !important;
   background-color: silver !important;
-  border:1px solid rgb(157, 156, 156) !important;
+  border: 1px solid rgb(157, 156, 156) !important;
 }
 
 .btn-discord {
