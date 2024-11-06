@@ -6,6 +6,14 @@ export const homeCopy = {
   },
   about_phone: [
     {
+      img: "/img/home/3.png",
+      title: `Comes with the Vultisig App`,
+      description: `VultiPhone is designed with crypto security in mind,
+                  pre-installed with Vultisig—a self-custodial multi-chain
+                  crypto vault.<br/> Protect your digital assets with unmatched ease
+                  and start earning crypto rewards from day one.`,
+    },
+    {
       img: "/img/home/4.png",
       title: `BIG, BOLD, AND
                   BRILLIANT`,
@@ -28,14 +36,6 @@ export const homeCopy = {
                   seamless. Whether you’re managing assets or authorizing a
                   transaction, the Vultiphone lets you sign on another trusted
                   device with just a few taps—no additional hardware needed.`,
-    },
-    {
-      img: "/img/home/3.png",
-      title: `Comes with the Vultisig App`,
-      description: `VultiPhone is designed with crypto security in mind,
-                  pre-installed with Vultisig—a self-custodial multi-chain
-                  crypto vault.<br/> Protect your digital assets with unmatched ease
-                  and start earning crypto rewards from day one.`,
     },
     {
       img: "/img/home/5.png",
@@ -99,7 +99,7 @@ export const homeCopy = {
   get_started: {
     title: `Get <br /> Started in <br /> Minutes`,
     description: `Setting up your Vultiphone is simple. Unbox, insert a local SIM card or connect to a WiFi network, power on, and your Vultisig vault is ready to go. With just a few taps, you can generate a secure vault and start managing your crypto safely.`,
-    link_text: `Pre-order Soon`,
+    link_text: `Pre-order Soon!`,
   },
   join_discord: {
     title: `JOIN THE DISCORD TO REQUEST NEW FEATURES!`,

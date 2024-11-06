@@ -18,7 +18,7 @@ export const navBarCopy = {
        
     ],
     pre_order: {
-        name: "Pre-order Soon",
+        name: "Pre-order Soon!",
         url: "",
         target: "_self"
     },
