@@ -23,7 +23,7 @@ export function NavBar() {
     return (
         <>
         <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-dark  px-lg-4 px-1 my-5 border-custom rounded-pill bg-navbar">
+        <nav className="navbar navbar-expand-lg navbar-dark  px-lg-4 px-1 my-5 rounded-pill bg-navbar">
           <Link
             className="navbar-brand mx-auto d-flex align-items-center"
             href="/"
@@ -38,7 +38,7 @@ export function NavBar() {
               alt="Vultisig Logo"
             />
             <strong
-              style={{ fontSize: "x-large",paddingRight:"25px" }}
+              style={{ fontSize: "x-large" }}
               className="monserrat-semibold"
             >
               Vultisig

@@ -35,12 +35,12 @@
 }
 
 .get-started {
-  margin-top: 50px;
   color: #fff;
   background-image: url("/img/home/get-started.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: -1;
   .shadow{
     padding: 40px 84px;
     z-index: -1;

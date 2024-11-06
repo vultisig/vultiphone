@@ -1,10 +1,6 @@
 :root {
   --color-green: #81f8de;
 }
-// @font-face {
-//   font-family: 'Menlo';
-//   src: url('/fonts/Menlo.ttf');
-// }
 
 @font-face {
   font-family: "Montserrat";
@@ -55,20 +51,16 @@ h6 {
 .text-12 {
   font-size: 12px;
 }
-.border-custom {
-  border: 2px solid #284f87;
-}
+
 .bg-navbar {
   background-color: #02122b85;
+  border: 2px solid #284f87;
 }
 .nav-link {
   color: #fff;
 }
 .text-green {
   color: var(--color-green);
-}
-.bg-green {
-  background-color: var(--color-green);
 }
 
 #bg-sec-one {

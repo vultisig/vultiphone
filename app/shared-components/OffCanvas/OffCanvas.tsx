@@ -100,7 +100,7 @@ export function Offcanvas({
                             </li>
                         ))
                         }
-                        <a onClick={handleClose} className="btn px-lg-4 ms-lg-5  btn-primary my-2 mx-lg-2 my-sm-0 btn-color d-flex align-items-center justify-content-center rounded"
+                        <a onClick={handleClose} className="btn px-lg-4 btn-light my-3 btn-color d-flex align-items-center justify-content-center rounded-pill"
                             style={{ height: "48px", width: "193px" }} href={navBarCopy.pre_order.url} target={navBarCopy.pre_order.target}>
                             {navBarCopy.pre_order.name}
                         </a>
