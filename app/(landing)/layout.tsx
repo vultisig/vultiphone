@@ -9,20 +9,20 @@ import "@/styles/index.scss";
 export const metadata: Metadata = {
   title: "VultiPhone",
   description: "VultiPhone is a secure and easy-to-use platform that allows you to manage your digital assets.",
-  metadataBase: new URL("https://vutiphone.com/"),
+  metadataBase: new URL("https://vultiphone.com/"),
   keywords: ['VultiPhone', 'Blockchain', ' Earn Crypto with Security', 'Multi-Chain Vault', ' WEWE' , 'DEFI' , 'NFT'],
   authors: [{ name: 'Vultisig' }],
   openGraph: {
     siteName: 'VultiPhone',
-    url: 'https://vutiphone.com/',
-    images: 'https://vutiphone.com/thumbnails/home.png',
+    url: 'https://vultiphone.com/',
+    images: 'https://vultiphone.com/thumbnails/home.png',
   },
   twitter: {
     site: "VultiPhone",
     card: "summary_large_image",
     title: "VultiPhone",
     description: "VultiPhone is a secure and easy-to-use platform that allows you to manage your digital assets.",
-    images: 'https://vutiphone.com/thumbnails/home.png',
+    images: 'https://vultiphone.com/thumbnails/home.png',
   },
   icons: {
     icon: "logo.svg",
