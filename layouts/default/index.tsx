@@ -29,6 +29,9 @@ export default function Component({
   const navbar: MenuProps["items"] = content.navbar.map((item, index) => ({
     key: `${index + 1}`,
     label: <Link href={item.url}>{item.label}</Link>,
+    onClick: () => {
+      setState((prevState) => ({ ...prevState, opened: false }));
+    },
   }));
 
   return (
@@ -196,25 +199,10 @@ export default function Component({
           <Drawer
             title="MENU"
             placement="left"
-            closeIcon={false}
             onClose={handleMenu}
             open={opened}
           >
-            <Menu
-              mode="inline"
-              items={[
-                ...navbar,
-                {
-                  key: "1000",
-                  label: (
-                    <Link href={content.download.url}>
-                      {content.download.label}
-                    </Link>
-                  ),
-                },
-              ]}
-              selectedKeys={[]}
-            />
+            <Menu mode="inline" items={navbar} selectedKeys={[]} />
           </Drawer>
         </ConfigProvider>
       </body>

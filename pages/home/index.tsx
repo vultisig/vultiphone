@@ -27,7 +27,7 @@ export default function Component() {
         </div>
       </section>
 
-      <section className="phases">
+      <section className="phases" id="phases">
         <div className="container">
           <ul className="list">
             {content.phase.map((item, index) => (
@@ -105,7 +105,7 @@ export default function Component() {
         </div>
       </section>
 
-      <section className="device-specs">
+      <section className="device-specs" id="device-specs">
         <div className="container">
           <h3 className="heading">{content.device_promo.title}</h3>
           <ul className="list">

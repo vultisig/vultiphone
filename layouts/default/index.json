@@ -13,15 +13,15 @@
   "navbar": [
     {
       "label": "Home",
-      "url": "/"
+      "url": "/#home"
     },
     {
       "label": "Why VultiPhone",
-      "url": "/"
+      "url": "/#device-specs"
     },
     {
       "label": "Preorder",
-      "url": "/"
+      "url": "/#phases"
     }
   ],
   "shortcut": {
