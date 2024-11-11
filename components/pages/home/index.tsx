@@ -211,8 +211,7 @@ export default function Component() {
             <p className="description">{content.stay_tuned.description}</p>
           </div>
           <div className="get-update">
-            <input type="email" placeholder="Email" />
-            <a className="btn">{content.stay_tuned.btn_text}</a>
+            <a href={content.stay_tuned.submit_url} target="blank" className="btn">{content.stay_tuned.btn_text}</a>
           </div>
         </div>
       </section>

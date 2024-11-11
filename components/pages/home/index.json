@@ -125,6 +125,7 @@
   "stay_tuned": {
     "title": "Stay Tuned",
     "description": "Be the first to hear about launch dates, new features, and exclusive offers. Enter your email to stay connected.",
-    "btn_text": "Get Upadtes"
+    "btn_text": "Newsletter",
+    "submit_url":"https://vultisig.substack.com/subscribe"
   }
 }
