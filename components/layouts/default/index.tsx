@@ -147,9 +147,9 @@ export default function Component({
                       ({ label, newTab, url }, index) => (
                         <li key={index}>
                           {newTab ? (
-                            <a href={url}>{label}</a>
+                            <a href={url} target="blank">{label}</a>
                           ) : (
-                            <Link href={url}>{label}</Link>
+                            <Link href={url} target="blank">{label}</Link>
                           )}
                         </li>
                       )
@@ -164,9 +164,9 @@ export default function Component({
                       ({ label, newTab, url }, index) => (
                         <li key={index}>
                           {newTab ? (
-                            <a href={url}>{label}</a>
+                            <a href={url} target="blank">{label}</a>
                           ) : (
-                            <Link href={url}>{label}</Link>
+                            <Link href={url} target="blank">{label}</Link>
                           )}
                         </li>
                       )
@@ -181,9 +181,9 @@ export default function Component({
                       ({ label, newTab, url }, index) => (
                         <li key={index}>
                           {newTab ? (
-                            <a href={url}>{label}</a>
+                            <a href={url} target="blank">{label}</a>
                           ) : (
-                            <Link href={url}>{label}</Link>
+                            <Link href={url} target="blank">{label}</Link>
                           )}
                         </li>
                       )

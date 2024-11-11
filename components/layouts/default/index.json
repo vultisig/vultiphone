@@ -30,12 +30,12 @@
       "links": [
         {
           "label": "Terms of Service",
-          "url": "/termofservice",
+          "url": "https://vultisig.com/termofservice",
           "newTab": false
         },
         {
           "label": "Privacy Policy",
-          "url": "/privacy",
+          "url": "https://vultisig.com/privacy",
           "newTab": false
         }
       ]
@@ -45,7 +45,7 @@
       "links": [
         {
           "label": "FAQs",
-          "url": "/faq",
+          "url": "https://vultisig.com/faq",
           "newTab": false
         },
         {
@@ -65,22 +65,22 @@
       "links": [
         {
           "label": "How It Works",
-          "url": "/howitworks",
+          "url": "https://vultisig.com/howitworks",
           "newTab": false
         },
         {
           "label": "Backed by",
-          "url": "/backedby",
+          "url": "https://vultisig.com/backedby",
           "newTab": false
         },
         {
           "label": "Docs",
-          "url": "/docs",
+          "url": "https://vultisig.com/docs",
           "newTab": false
         },
         {
           "label": "$VULT",
-          "url": "/vult",
+          "url": "https://vultisig.com/vult",
           "newTab": false
         },
         {
