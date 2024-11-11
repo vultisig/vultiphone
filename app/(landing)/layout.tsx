@@ -15,14 +15,14 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: 'VultiPhone',
     url: 'https://vutiphone.com/',
-    images: 'https://vutiphone.com/thumbnails/home.png',
+    images: 'https://vultiphone.com/thumbnails/home.png',
   },
   twitter: {
     site: "VultiPhone",
     card: "summary_large_image",
     title: "VultiPhone",
     description: "VultiPhone is a secure and easy-to-use platform that allows you to manage your digital assets.",
-    images: 'https://vutiphone.com/thumbnails/home.png',
+    images: 'https://vultiphone.com/thumbnails/home.png',
   },
   icons: {
     icon: "logo.svg",
