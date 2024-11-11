@@ -1,9 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Landing from "./(pages)/landing/page";
+import Component from "@/pages/home";
 
-export default function Home() {
-  return (
-   <Landing />
-  );
-}
+export default Component;

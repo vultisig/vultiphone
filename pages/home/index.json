@@ -1,0 +1,130 @@
+{
+  "hero_section": {
+    "site_name": "VultiPhone",
+    "site_description": "Your co-signing companion for Vultisig.",
+    "btn_order": "Preorder",
+    "shipping": "Shipping 2025"
+  },
+  "phase": [
+    {
+      "number": "PHASE 1",
+      "title": "Early Bird Special",
+      "old_price": "",
+      "price": "CHF 99",
+      "price_description": "First 200 devices. FCFS",
+      "description": "Be among the first to experience next-gen crypto security at a fraction of the retail cost.",
+      "btn_order": "Preorder",
+      "is_active": true
+    },
+    {
+      "number": "PHASE 2",
+      "title": "Pre-Release",
+      "old_price": "CHF 149",
+      "price": "CHF 129",
+      "price_description": "Second batch of 300 devices. FCFS.",
+      "description": "Save off the full price when you pre-order and lock in this limited-time price! ",
+      "btn_order": "Coming Soon",
+      "is_active": false
+    },
+    {
+      "number": "PHASE 3",
+      "title": "Official Launch",
+      "old_price": "",
+      "price": "CHF 149",
+      "price_description": "Limited to: 4500 devices",
+      "description": "Last chance to get a Vultiphone. Don’t wait—secure yours now!",
+      "btn_order": "Coming Soon",
+      "is_active": false
+    }
+  ],
+  "limited_offer": {
+    "title": "Limited Offer",
+    "description": "First 100 Preorders Come with a @THORGuards NFT",
+    "btn_order": "Get it now for only CHF 99"
+  },
+  "comes_with_vultisig": {
+    "title": "Comes with the <span class='cyan-color'>Vultisig App</span>",
+    "description": "VultiPhone is designed with crypto security in mind, pre-installed with Vultisig—a self-custodial multi-chain crypto vault. Protect your digital assets with unmatched ease and start earning crypto rewards from day one.",
+    "btn": "Preorder"
+  },
+  "seedless": {
+    "title": "Seedless Vault. <span class='cyan-color'>Maximum Security.</span>"
+  },
+  "device_promo": {
+    "title": "Your co-signing companion you don't want to miss.",
+    "items": [
+      {
+        "title": "Seedles Vault",
+        "subtilte": "",
+        "icon": "images/home/seedless.svg"
+      },
+      {
+        "title": "8GB RAM",
+        "subtilte": "MEMORY",
+        "icon": "images/home/sd-cards.svg"
+      },
+      {
+        "title": "50+8MP",
+        "subtilte": "Camera",
+        "icon": "images/home/Camera.svg"
+      },
+      {
+        "title": "6.7' HD+ IPS",
+        "subtilte": "DISPLAY",
+        "icon": "images/home/display.svg"
+      },
+      {
+        "title": "128GB",
+        "subtilte": "STORAGE",
+        "icon": "images/home/storage.svg"
+      }
+    ]
+  },
+  "why_VultiPhone": {
+    "title": "Why Choose <span class=\"cyan-color\">VultiPhone?</span>",
+    "items": [
+      {
+        "icon": "/images/home/earn-crypto.png",
+        "title": "Earn Crypto Rewards"
+      },
+      {
+        "icon": "/images/home/exclusive-nft.png",
+        "title": "Exclusive NFTs for Early Adopters"
+      },
+      {
+        "icon": "/images/home/pair.png",
+        "title": "Pair and Backup Your Vault"
+      },
+      {
+        "icon": "/images/home/vulti-logo.png",
+        "title": "Pre-Installed Vultisig"
+      }
+    ]
+  },
+  "session_app": {
+    "title": "Vultiphone also comes with",
+    "app_name": "Session <span class=\"cyan-color\">App</span>",
+    "description": "Session is an end-to-end encrypted messenger that minimises sensitive metadata, designed and built for people who want absolute privacy and freedom from any form of surveillance."
+  },
+  "delivery_details": {
+    "items": [
+      {
+        "title": "Delivery Details",
+        "description": "The estimated delivery is expected by Q4 24/Q1 25, subject to international shipping times based on your location."
+      },
+      {
+        "title": "Data Privacy",
+        "description": "Your personal information (address, email, transaction ID) will be used solely for communication regarding delivery and will be deleted once your Vultiphone has been delivered."
+      },
+      {
+        "title": "Warranty Information",
+        "description": "Your personal information (address, email, transaction ID) will be used solely for communication regarding delivery and will be deleted once your Vultiphone has been delivered."
+      }
+    ]
+  },
+  "stay_tuned": {
+    "title": "Stay Tuned",
+    "description": "Be the first to hear about launch dates, new features, and exclusive offers. Enter your email to stay connected.",
+    "btn_text": "Get Upadtes"
+  }
+}

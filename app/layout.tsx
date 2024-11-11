@@ -1,48 +1,45 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.scss";
 
-import { NavBar } from "./shared-components/NavBar";
-import { Footer } from "./shared-components/Footer";
+import Component from "@/layouts/default";
 
-
-const geistSans = localFont({
-  src: "./fonts/Montserrat-Medium.ttf",
-  variable: "--font-Montserrat-Medium",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/Montserrat-Bold.ttf",
-  variable: "--font-Montserrat-Bold",
-  weight: "100 900",
-});
+import "@fontsource/montserrat/latin.css";
+import "@fontsource/roboto-mono/latin.css";
+import "@/styles/index.scss";
 
 export const metadata: Metadata = {
-  title: "VultiPhone",
-  description: "VultiPhone is a secure and easy-to-use platform that allows you to manage your digital assets.",
-  metadataBase: new URL("https://vultiphone.vercel.app/"),
-  keywords: ['VultiPhone', 'Blockchain', ' Earn Crypto with Security', 'Multi-Chain Vault', ' WEWE' , 'DEFI' , 'NFT'],
-  authors: [{ name: 'Vultisig' }],
+  title: "Vultisig - Multisig Crypto Vault",
+  description:
+    "Vultisig is a secure and easy-to-use platform that allows you to manage your digital assets.",
+  metadataBase: new URL("https://vultisig.com"),
+  keywords: [
+    "Vultisig",
+    "Vultisig Docs",
+    " Vultisig help",
+    "Vultisig support",
+    " Vultisig customer service",
+    "Vultisig asset exchange",
+  ],
+  authors: [{ name: "Vultisig" }, { name: "Vultisig", url: "Vultisig.com" }],
   openGraph: {
-    siteName: 'VultiPhone',
-    url: 'https://vultiphone.vercel.app/',
-    images: 'https://vultiphone.vercel.app/img/vultiphone-thumbnail.png',
+    siteName: "Vultisig",
+    title: "Vultisig - Multisig Crypto Vault",
+    description:
+      "A highly secure self-custodial multi-chain crypto vault with in-built two-factor authentication, and no tracking or registration requirements.",
+    url: "https://vultisig.com",
+    type: "website",
+    images: "https://vultisig.com/thumbnails/home.png",
+  },
+  twitter: {
+    site: "vultisig.com",
+    card: "summary_large_image",
+    title: "Vultisig - Multisig Crypto Vault",
+    description:
+      "A highly secure self-custodial multi-chain crypto vault with in-built two-factor authentication, and no tracking or registration requirements.",
+    images: "https://vultisig.com/thumbnails/home.png",
+  },
+  icons: {
+    icon: "logo.svg",
   },
 };
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      {/* className={`${geistSans.variable} ${geistMono.variable}`} */}
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-      <NavBar />
-        {children}
-        <Footer />
-      </body>
-    </html>
-  );
-}
+
+export default Component;

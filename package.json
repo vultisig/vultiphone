@@ -1,5 +1,5 @@
 {
-  "name": "vulti-phone",
+  "name": "vultisig-landing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "next": "14.2.12",
+    "antd": "^5.21.5",
+    "next": "14.2.16",
     "react": "^18",
-    "react-dom": "^18",
-    "sass": "^1.79.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@fontsource/montserrat": "^5.1.0",
+    "@fontsource/roboto-mono": "^5.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
+    "postcss": "^8.4.47",
+    "sass": "^1.80.4",
     "typescript": "^5"
   }
 }
