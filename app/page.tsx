@@ -1,3 +1,3 @@
-import Component from "@/pages/home";
+import Component from "@/components/pages/home";
 
 export default Component;

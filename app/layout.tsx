@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import Component from "@/layouts/default";
+import Component from "@/components/layouts/default";
 
 import "@fontsource/montserrat/latin.css";
 import "@fontsource/roboto-mono/latin.css";

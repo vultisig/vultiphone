@@ -5,7 +5,7 @@ import { ConfigProvider, Drawer, Menu, MenuProps } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 
-import content from "@/layouts/default/index.json";
+import content from "@/components/layouts/default/index.json";
 
 import { HamburgerMD, Vultisig } from "@/icons";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import content from "@/pages/home/index.json";
+import content from "@/components/pages/home/index.json";
 
 export default function Component() {
   return (
