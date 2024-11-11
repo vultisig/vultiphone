@@ -713,26 +713,6 @@
 
 @media (min-width: rem(768)) {
   .home-page {
-    .hero-section {
-      .hero-content {
-        padding-top: rem(50);
-        strong {
-          font-size: rem(60);
-        }
-        p {
-          font-size: rem(25);
-          padding-right: rem(30);
-        }
-        .order-btn {
-          span {
-            font-size: rem(12);
-          }
-        }
-      }
-      .container {
-        display: flex;
-      }
-    }
 
     .phases {
       margin-top: rem(80);
@@ -743,61 +723,6 @@
         li {
           width: calc(100% / 2 - rem(32 * 1 / 2));
         }
-      }
-    }
-
-    .offer {
-      margin-top: rem(80);
-
-      .desc {
-        margin-top: rem(16);
-      }
-
-      .btn {
-        margin-top: rem(32);
-        max-width: rem(316);
-      }
-
-      .image {
-        left: rem(16);
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: rem(414);
-        padding-left: rem(656);
-        text-align: left;
-      }
-    }
-
-    .application {
-      margin-top: rem(80);
-
-      .btn {
-        max-width: rem(214);
-      }
-
-      .media {
-        margin: 0;
-        position: absolute;
-        right: rem(16);
-        top: 50%;
-        transform: translateY(-50%);
-      }
-
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: rem(546);
-        padding-right: rem(522);
-        text-align: left;
       }
     }
 
@@ -882,8 +807,8 @@
 
 @media (min-width: rem(992)) {
   .home-page {
+
     .hero-section {
-      display: flex;
       .hero-content {
         padding-top: rem(50);
         strong {
@@ -908,10 +833,66 @@
           }
         }
       }
-      img {
-        width: 40%;
+      .container {
+        display: flex;
       }
     }
+
+    .offer {
+      margin-top: rem(80);
+
+      .desc {
+        margin-top: rem(16);
+      }
+
+      .btn {
+        margin-top: rem(32);
+        max-width: rem(316);
+      }
+
+      .image {
+        left: rem(16);
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: rem(414);
+        padding-left: rem(656);
+        text-align: left;
+      }
+    }
+
+    .application {
+      margin-top: rem(80);
+
+      .btn {
+        max-width: rem(214);
+      }
+
+      .media {
+        margin: 0;
+        position: absolute;
+        right: rem(16);
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: rem(546);
+        padding-right: rem(522);
+        text-align: left;
+      }
+    }
+
 
     .device-specs {
       margin-top: rem(80);
