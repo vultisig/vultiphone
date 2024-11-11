@@ -1,0 +1,120 @@
+{
+  "copyright": "@ Copyright 2024 - Vultisig.",
+  "discord": {
+    "title": "JOIN THE DISCORD TO REQUEST NEW FEATURES!",
+    "url": "https://discord.gg/54wEtGYxuv",
+    "target": "_blank",
+    "btn": "DISCORD LINK"
+  },
+  "download": {
+    "label": "Preorder",
+    "url": "/"
+  },
+  "navbar": [
+    {
+      "label": "Home",
+      "url": "/#home"
+    },
+    {
+      "label": "Why VultiPhone",
+      "url": "/#device-specs"
+    },
+    {
+      "label": "Preorder",
+      "url": "/#phases"
+    }
+  ],
+  "shortcut": {
+    "legal": {
+      "title": "Legal",
+      "links": [
+        {
+          "label": "Terms of Service",
+          "url": "https://vultisig.com/termofservice",
+          "newTab": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://vultisig.com/privacy",
+          "newTab": false
+        }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "links": [
+        {
+          "label": "FAQs",
+          "url": "https://vultisig.com/faq",
+          "newTab": false
+        },
+        {
+          "label": "Audits",
+          "url": "https://docs.vultisig.com/threshold-signature-scheme/security",
+          "newTab": true
+        },
+        {
+          "label": "Contact Us",
+          "url": "https://twitter.com/vultisig",
+          "newTab": true
+        }
+      ]
+    },
+    "vultisig": {
+      "title": "Vultisig",
+      "links": [
+        {
+          "label": "How It Works",
+          "url": "https://vultisig.com/howitworks",
+          "newTab": false
+        },
+        {
+          "label": "Backed by",
+          "url": "https://vultisig.com/backedby",
+          "newTab": false
+        },
+        {
+          "label": "Docs",
+          "url": "https://vultisig.com/docs",
+          "newTab": false
+        },
+        {
+          "label": "$VULT",
+          "url": "https://vultisig.com/vult",
+          "newTab": false
+        },
+        {
+          "label": "Extension",
+          "url": "https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB&pli=1",
+          "newTab": true
+        }
+      ]
+    }
+  },
+  "social": {
+    "discord": {
+      "alt": "Discord",
+      "img": "/images/discord.png",
+      "url": "https://discord.gg/54wEtGYxuv",
+      "target": "_blank"
+    },
+    "github": {
+      "alt": "Github",
+      "img": "/images/github.png",
+      "url": "https://github.com/Vultisig/",
+      "target": "_blank"
+    },
+    "telegram": {
+      "alt": "telegram",
+      "img": "/images/telegram.png",
+      "url": "https://t.me/vultisig",
+      "target": "_blank"
+    },
+    "twitter": {
+      "alt": "Twitter",
+      "img": "/images/twitter.png",
+      "url": "https://twitter.com/vultisig",
+      "target": "_blank"
+    }
+  }
+}

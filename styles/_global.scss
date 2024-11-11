@@ -1,0 +1,430 @@
+@use "_variables" as *;
+
+body {
+  background-color: $blue-dark;
+  color: $gray-1;
+  font-family: $primary-font;
+  min-width: rem(360);
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    background-color: $blue-base;
+    width: rem(8);
+  }
+
+  &::-webkit-scrollbar-corner {
+    background-color: $blue-base;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $blue-light;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: rem(1200);
+  padding-left: rem(16);
+  padding-right: rem(16);
+  position: relative;
+  width: 100%;
+}
+
+.btn {
+  background-color: $gray-1;
+  border-radius: rem(50);
+  color: $gray-13;
+  display: inline-block;
+  font-size: rem(12);
+  font-weight: 600;
+  line-height: rem(40);
+  padding: 0 rem(16);
+  position: relative;
+  text-align: center;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &.btn-disabled {
+    background-color: $gray-8;
+    color: $gray-6;
+    cursor: default;
+    opacity: 1;
+  }
+}
+
+.cyan-color {
+  color: $cyan-base;
+}
+
+.gradient-text {
+  background-image: $text-gradient;
+  background-clip: text;
+  color: transparent;
+}
+
+.ant-drawer {
+  .ant-menu-submenu-arrow {
+    color: $gray-1;
+  }
+
+  .ant-menu-title-content {
+    color: $gray-1;
+  }
+
+  .ant-menu-item,
+  .ant-menu-submenu-title {
+    background-color: transparent !important;
+  }
+
+  .ant-menu {
+    background-color: transparent;
+    border: none !important;
+  }
+
+  .ant-drawer-close {
+    color: $gray-1 !important;
+  }
+
+  .ant-drawer-title {
+    color: $gray-1;
+  }
+
+  .ant-drawer-header {
+    border-color: rgba($gray-1, 0.06);
+  }
+
+  .ant-drawer-body {
+    padding: rem(16) 0;
+  }
+
+  .ant-drawer-content {
+    background-color: $blue-dark;
+  }
+}
+
+.ant-menu-submenu-popup {
+  .ant-menu-title-content {
+    color: $gray-1;
+  }
+
+  .ant-menu {
+    background-color: $blue-base !important;
+  }
+}
+
+.gradient-shadow {
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+
+  &::before {
+    content: "";
+    position: absolute;
+  }
+
+  &::after {
+    border: rem(1) solid rgba($color: $cyan-base, $alpha: 0.27);
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+  }
+
+  &.gradient-shadow-one {
+    height: rem(234);
+    width: rem(234);
+
+    &::before {
+      background-image: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba($blue-sharp, 0.15) 0%,
+        rgba($blue-dark, 0.4) 100%
+      );
+      height: rem(234);
+      width: rem(234);
+    }
+
+    &::after {
+      height: rem(174);
+      width: rem(174);
+    }
+  }
+
+  &.gradient-shadow-two {
+    height: rem(254);
+    width: rem(254);
+
+    &::before {
+      background-image: radial-gradient(
+        42% 42% at 50% 50%,
+        rgba($blue-sharp, 0.2) 0%,
+        rgba($blue-dark, 0.2) 100%
+      );
+      height: rem(254);
+      width: rem(254);
+    }
+
+    &::after {
+      height: rem(160);
+      width: rem(160);
+    }
+  }
+
+  &.gradient-shadow-three {
+    height: rem(272);
+    width: rem(272);
+
+    &::before {
+      background-image: radial-gradient(
+        42% 42% at 50% 50%,
+        rgba($blue-sharp, 0.2) 0%,
+        rgba($blue-dark, 0.4) 100%
+      );
+      height: rem(272);
+      width: rem(272);
+    }
+
+    &::after {
+      height: rem(172);
+      width: rem(172);
+    }
+  }
+
+  &.gradient-shadow-four {
+    height: rem(944);
+    width: rem(944);
+
+    &::before {
+      background-image: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba($blue-sharp, 0.15) 0%,
+        rgba($blue-dark, 0.4) 100%
+      );
+    }
+
+    &::after {
+      height: 74%;
+      width: 74%;
+    }
+  }
+
+  &.gradient-shadow-five {
+    height: rem(780);
+    width: rem(780);
+
+    &::before {
+      background-image: radial-gradient(
+        42% 42% at 50% 50%,
+        rgba($blue-sharp, 0.2) 0%,
+        rgba($blue-dark, 0.4) 100%
+      );
+    }
+
+    &::after {
+      height: 54%;
+      width: 54%;
+    }
+  }
+}
+
+@media (min-width: rem(576)) {
+  .gradient-shadow {
+    &.gradient-shadow-one {
+      height: rem(386);
+      width: rem(386);
+
+      &::before {
+        height: rem(386);
+        width: rem(386);
+      }
+
+      &::after {
+        height: rem(290);
+        width: rem(290);
+      }
+    }
+
+    &.gradient-shadow-two {
+      height: rem(420);
+      width: rem(420);
+
+      &::before {
+        height: rem(420);
+        width: rem(420);
+      }
+
+      &::after {
+        height: rem(266);
+        width: rem(266);
+      }
+    }
+
+    &.gradient-shadow-three {
+      height: rem(450);
+      width: rem(450);
+
+      &::before {
+        height: rem(450);
+        width: rem(450);
+      }
+
+      &::after {
+        height: rem(286);
+        width: rem(286);
+      }
+    }
+  }
+}
+
+@media (min-width: rem(768)) {
+  .gradient-shadow {
+    &.gradient-shadow-one {
+      height: rem(502);
+      width: rem(502);
+
+      &::before {
+        height: rem(502);
+        width: rem(502);
+      }
+
+      &::after {
+        height: rem(376);
+        width: rem(376);
+      }
+    }
+
+    &.gradient-shadow-two {
+      height: rem(546);
+      width: rem(546);
+
+      &::before {
+        height: rem(546);
+        width: rem(546);
+      }
+
+      &::after {
+        height: rem(360);
+        width: rem(360);
+      }
+    }
+
+    &.gradient-shadow-three {
+      height: rem(610);
+      width: rem(610);
+
+      &::before {
+        height: rem(610);
+        width: rem(610);
+      }
+
+      &::after {
+        height: rem(386);
+        width: rem(386);
+      }
+    }
+  }
+}
+
+@media (min-width: rem(992)) {
+  .gradient-shadow {
+    &.gradient-shadow-one {
+      height: rem(682);
+      width: rem(682);
+
+      &::before {
+        height: rem(682);
+        width: rem(682);
+      }
+
+      &::after {
+        height: rem(510);
+        width: rem(510);
+      }
+    }
+
+    &.gradient-shadow-two {
+      height: rem(742);
+      width: rem(742);
+
+      &::before {
+        height: rem(742);
+        width: rem(742);
+      }
+
+      &::after {
+        height: rem(470);
+        width: rem(470);
+      }
+    }
+
+    &.gradient-shadow-three {
+      height: rem(796);
+      width: rem(796);
+
+      &::before {
+        height: rem(796);
+        width: rem(796);
+      }
+
+      &::after {
+        height: rem(504);
+        width: rem(504);
+      }
+    }
+  }
+}
+
+@media (min-width: rem(1200)) {
+  .gradient-shadow {
+    &.gradient-shadow-one {
+      height: rem(944);
+      width: rem(944);
+
+      &::before {
+        height: rem(944);
+        width: rem(944);
+      }
+
+      &::after {
+        height: rem(706);
+        width: rem(706);
+      }
+    }
+
+    &.gradient-shadow-two {
+      height: rem(1026);
+      width: rem(1026);
+
+      &::before {
+        height: rem(1026);
+        width: rem(1026);
+      }
+
+      &::after {
+        height: rem(650);
+        width: rem(650);
+      }
+    }
+
+    &.gradient-shadow-three {
+      height: rem(968);
+      width: rem(968);
+
+      &::before {
+        height: rem(968);
+        width: rem(968);
+      }
+
+      &::after {
+        height: rem(612);
+        width: rem(612);
+      }
+    }
+  }
+}

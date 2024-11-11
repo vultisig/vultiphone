@@ -1,0 +1,63 @@
+﻿@use "sass:math";
+
+@function rem($px, $base: 16) {
+  @return #{math.div($px, $base)}rem;
+}
+
+$blue-base: #061b3a;
+$blue-light: #11284a;
+$blue-dark: #02122b;
+$blue-sharp: #0439c7;
+$cyan-base: #33e6bf;
+
+$box-bg-color: rgba(41, 60, 111, 0.31);
+$btn-base: #2155df;
+$btn-dark: #1942b3;
+$box-border: rgba(47, 82, 114, 1);
+
+$gray-1: #ffffff;
+$gray-2: #fafafa;
+$gray-3: #f5f5f5;
+$gray-4: #f0f0f0;
+$gray-5: #d9d9d9;
+$gray-6: #bfbfbf;
+$gray-7: #8c8c8c;
+$gray-8: #595959;
+$gray-9: #434343;
+$gray-10: #262626;
+$gray-11: #1f1f1f;
+$gray-12: #141414;
+$gray-13: #000000;
+$section-padding: rem(50);
+
+$box-shadow: "0 0 rem(8) rgba($color: $cyan-base, $alpha: 0.2)";
+$text-gradient: linear-gradient(102deg, $cyan-base 14%, $blue-sharp 140%);
+$linear-gradient: linear-gradient(
+  90deg,
+  $blue-dark 0%,
+  $blue-sharp 25%,
+  $cyan-base 50%,
+  $blue-sharp 75%,
+  $blue-dark 100%
+);
+$radial-gradient: radial-gradient(
+  50% 50% at 50% 50%,
+  rgba(
+      $color: #2e89f2,
+      $alpha: 1,
+    )
+    0%,
+  rgba(
+      $color: #104be7,
+      $alpha: 0.75,
+    )
+    25%,
+  rgba(
+      $color: #202786,
+      $alpha: 0,
+    )
+    100%
+);
+
+$primary-font: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
+$secondary-font: "Roboto Mono", Tahoma, Geneva, Verdana, sans-serif;
