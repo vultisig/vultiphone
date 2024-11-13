@@ -11,7 +11,7 @@ export default function Component() {
             <strong>{content.hero_section.site_name}</strong>
             <p>{content.hero_section.site_description}</p>
             <div className="order-btn">
-              <a href="" className="btn">
+              <a href={content.hero_section.btn_order_url} className="btn">
                 {content.hero_section.btn_order}
               </a>
               <span>{content.hero_section.shipping}</span>
@@ -43,7 +43,12 @@ export default function Component() {
                   {item.price_description}
                 </span>
                 <span className="description">{item.description}</span>
-                <a className={item.is_active ? "btn" : "btn btn-disabled"}>
+                <a 
+                  href={
+                    item.is_active ? content.hero_section.btn_order_url : ""
+                  }
+                  className={item.is_active ? "btn" : "btn btn-disabled"}
+                >
                   {item.btn_order}
                 </a>
               </li>
@@ -56,7 +61,9 @@ export default function Component() {
         <div className="container">
           <h3 className="title">{content.limited_offer.title}</h3>
           <p className="desc">{content.limited_offer.description}</p>
-          <a className="btn">{content.limited_offer.btn_order}</a>
+          <a className="btn" href={content.hero_section.btn_order_url}>
+            {content.limited_offer.btn_order}
+          </a>
           <Image
             width={592}
             height={414}
@@ -76,7 +83,7 @@ export default function Component() {
             }}
           />
           <p className="desc">{content.comes_with_vultisig.description}</p>
-          <a className="btn">{content.comes_with_vultisig.btn}</a>
+          <a className="btn" href={content.hero_section.btn_order_url}>{content.comes_with_vultisig.btn}</a>
           <div className="media">
             <Image
               width={366}
@@ -211,7 +218,13 @@ export default function Component() {
             <p className="description">{content.stay_tuned.description}</p>
           </div>
           <div className="get-update">
-            <a href={content.stay_tuned.submit_url} target="blank" className="btn">{content.stay_tuned.btn_text}</a>
+            <a
+              href={content.stay_tuned.submit_url}
+              target="blank"
+              className="btn"
+            >
+              {content.stay_tuned.btn_text}
+            </a>
           </div>
         </div>
       </section>
