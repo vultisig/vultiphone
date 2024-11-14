@@ -3,7 +3,7 @@
     "site_name": "VultiPhone",
     "site_description": "Your co-signing companion for Vultisig.",
     "btn_order": "Preorder",
-    "btn_order_url": "https://vultiphone.myshopify.com/products/vultiphone-early-bird-special",
+    "btn_order_url": "https://vultiphone.myshopify.com/products/vultiphone-pre-release",
     "shipping": "Shipping 2025"
   },
   "phase": [
@@ -14,7 +14,7 @@
       "price": "CHF 99",
       "price_description": "First 200 devices. FCFS",
       "description": "Be among the first to experience next-gen crypto security at a fraction of the retail cost.",
-      "btn_order": "Preorder",
+      "btn_order": "Sold Out",
       "is_active": true
     },
     {
@@ -24,7 +24,7 @@
       "price": "CHF 129",
       "price_description": "Second batch of 300 devices. FCFS.",
       "description": "Save off the full price when you pre-order and lock in this limited-time price! ",
-      "btn_order": "Coming Soon",
+      "btn_order": "Preorder",
       "is_active": false
     },
     {
