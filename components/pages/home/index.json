@@ -15,7 +15,7 @@
       "price_description": "First 200 devices. FCFS",
       "description": "Be among the first to experience next-gen crypto security at a fraction of the retail cost.",
       "btn_order": "Sold Out",
-      "is_active": true
+      "is_active": false
     },
     {
       "number": "PHASE 2",
@@ -25,7 +25,7 @@
       "price_description": "Second batch of 300 devices. FCFS.",
       "description": "Save off the full price when you pre-order and lock in this limited-time price! ",
       "btn_order": "Preorder",
-      "is_active": false
+      "is_active": true
     },
     {
       "number": "PHASE 3",
